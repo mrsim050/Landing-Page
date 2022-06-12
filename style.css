@@ -55,13 +55,17 @@ body{
 }
 
 .img{
-    height: 150px;
+    height: 232px;
     width: 500px;    
-    padding: 20px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img{
+    width: inherit;
+    height: inherit;
 }
 
 ul{
@@ -86,6 +90,12 @@ button{
     margin-bottom: 8px;
     background-color: #3882f6;
     color: #f9faf8;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
 }
 
 .btn1{
@@ -193,3 +203,5 @@ button{
     justify-content: center;
     color: #e5e7eb;
 }
+
+ 
